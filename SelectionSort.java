@@ -3,6 +3,9 @@ import java.util.Arrays;
 public class SelectionSort {
 
     public  static  void main(String args[]){
+
+        //Reduce the Number of Swapping as compared to Bubble Sort
+        // move minimum value to start
         int nums[] = {6,4,9,7,20,1};
         int size = nums.length;
         int  minIndex = -1;

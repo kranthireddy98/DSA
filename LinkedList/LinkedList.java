@@ -134,6 +134,7 @@ public class LinkedList {
         return false;
     }
 
+
     public Node remove(int index) {
         if (index < 0 || index >= length) return null;
         if (index == 0) {

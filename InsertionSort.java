@@ -4,6 +4,7 @@ public class InsertionSort {
 
     public static void main(String args[]){
 
+        // pick a value and insert at its place
         int[] nums = {74,5,9,73,03};
         System.out.println(Arrays.toString(nums));
 
